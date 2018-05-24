@@ -18,8 +18,17 @@ As was menshioned every microservice completely independent. Cast and MazePage u
 * [Dapper](https://github.com/StackExchange/Dapper) - lightweight library which extends IDbConnection interface. It's very simple framework and it's just for microservices.
 * [Asp .NET Core](https://github.com/aspnet/Home) - framework for building internet connected applications
 
+# Requirements for the system 
+* REST API gives access to shows and cast information
+* Some data cached in storage
+* Paginating available
+* List of the cast has ordering
+
 # Summary 
+All services was published to windows virtual machine which located in Azure.
+Right now user have access only for Shows microservice which communicate with two others.
 
-
-
-To retrieve shows user should make http request to the following url: 
+To retrieve shows user can make request to the following urls: 
+* http://tvmazescrapper.westeurope.cloudapp.azure.com/shows
+or 
+* http://tvmazescrapper.westeurope.cloudapp.azure.com/shows?page=1
