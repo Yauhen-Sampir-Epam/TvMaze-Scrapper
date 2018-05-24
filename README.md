@@ -30,5 +30,4 @@ Right now user have access only for Shows microservice which communicate with tw
 
 To retrieve shows user can make request to the following urls: 
 * http://tvmazescrapper.westeurope.cloudapp.azure.com/shows
-or 
 * http://tvmazescrapper.westeurope.cloudapp.azure.com/shows?page=1
