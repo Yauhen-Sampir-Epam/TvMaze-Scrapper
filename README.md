@@ -5,7 +5,7 @@ Project consist of three independent microservices:
 - MazePage
 - Shows
 
-## Every microservice has his own API.
+## Microservices overview
 * Cast: `/casts?ids=[showIds]`
 * MazePage: `/shows?page=[pageNumber]&from=[from]&to=[to]` where "from" and "to" optional parameters
 * Shows: `/shows?page=[pageNumber]` Every page consists of 10 items
