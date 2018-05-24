@@ -10,7 +10,7 @@ Project consist of three independent microservices:
 * MazePage: /shows?page=[pageNumber]&from=[from]&to=[to] where "from" and "to" optional parameters
 * Shows: /shows?page=[pageNumber] Every page consists of 10 items
 
-As was menshioned every microservice completely independent. Cast and MazePage used Microsoft SQL Server but we can setup for every single microservice his own technolodgy stack(e.x. we can cache objects in [Redis](https://github.com/antirez/redis) or whatever you need)
+As was menshioned every microservice completely independent. Cast and MazePage used Microsoft SQL Server but we can setup for every single microservice his own technolodgy stack (e.x. we can cache objects in [Redis](https://github.com/antirez/redis) or whatever you need)
 
 # Technology 
 * [Nancy](https://github.com/NancyFx/Nancy) - The web framework used
