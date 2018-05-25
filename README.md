@@ -28,7 +28,7 @@ Every microservice completely independent. Cast and MazePage used Microsoft SQL 
 
 ## To make long story short
 All services was published to windows virtual machine which located in Azure.
-Right now user have access to all of them using the following API:
+Right now user have access to all of them by the following API:
 * To retrieve shows user can make request to the following URLs:
   * http://tvmazescrapper.westeurope.cloudapp.azure.com/shows
   * http://tvmazescrapper.westeurope.cloudapp.azure.com/shows?page=1
