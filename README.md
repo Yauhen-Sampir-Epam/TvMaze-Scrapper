@@ -30,7 +30,7 @@ Right now user have access to all of them using the following API:
 * To retrieve shows user can make request to the following URLs:
   * http://tvmazescrapper.westeurope.cloudapp.azure.com/shows
   * http://tvmazescrapper.westeurope.cloudapp.azure.com/shows?page=1
-* To retrieve just shows from **Shows** microservice you can make following request:
+* To retrieve just shows from **shows** microservice you can make following request:
   * http://tvmazescrapper.westeurope.cloudapp.azure.com:65373/shows?page=0&from=10&to=20
 * To retrieve **cast** from show or shows you can make next request:
   * http://tvmazescrapper.westeurope.cloudapp.azure.com:52348/casts?ids=[815,816,819] where 815,816,817 show id
