@@ -7,7 +7,7 @@ Right now user have access to all of them using the following API:
   * http://tvmazescrapper.westeurope.cloudapp.azure.com/shows
   * http://tvmazescrapper.westeurope.cloudapp.azure.com/shows?page=1
 * To retrieve just shows from **Shows** microservice you can make following request:
-  * http://tvmazescrapper.westeurope.cloudapp.azure.com:65373/shows?page=0&from=10&to=20
+  * http://tvmazescrapper.westeurope.cloudapp.azure.com:65373/shows?page=0&from=10&to=20 where page is real TvMaze page and necessary range. All parameters are optional. 
 * To retrieve just casts for specific shows from **Cast** microservice you can make next request:
   * http://tvmazescrapper.westeurope.cloudapp.azure.com:52348/casts?ids=[815,816,819] where 815,816,817 show id
 
